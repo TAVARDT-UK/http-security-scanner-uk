@@ -4,7 +4,7 @@ import urllib.request
 import urllib.error
 from urllib.parse import urlparse
 
-SECURITY_HEADERS = [('Strict-Transport-Security', 'Enforces HTTPS encryption and prevents SSL-stripping (HSTS).'), ('Content-Security-Policy', 'Restricts resource loading to mitigate Cross-Site Scripting (XSS).'), ('X-Frame-Options', 'Mitigates clickjacking attacks by managing frame embedding rules.'), ('X-Content-Type-Options', 'Prevents MIME-sniffing vulnerabilities in client browsers.'), ('Referrer-Policy', 'Controls referrer metadata leakage across external origins.'), ('Permissions-Policy', 'Applies least-privilege control to browser hardware interfaces.')]
+SECURITY_HEADERS = [('Strict-Transport-Security', 'Enforces HTTPS encryption and prevents SSL-stripping and downgrade attacks.'), ('Content-Security-Policy', 'Restricts resource loading to mitigate Cross-Site Scripting (XSS) and unauthorized code execution.'), ('X-Frame-Options', 'Prevents clickjacking by controlling framing and iframe permissions.'), ('X-Content-Type-Options', 'Prevents MIME-sniffing vulnerabilities across modern web browsers.'), ('Referrer-Policy', 'Protects sensitive URL query parameters from cross-origin disclosure.'), ('Permissions-Policy', 'Enforces least-privilege control for browser hardware capabilities and sensors.')]
 
 def scan_target(target_url):
     print(f"\n[TAVARDT UK] Starting HTTP security headers perimeter audit for: {target_url}\n")
@@ -28,11 +28,11 @@ def scan_target(target_url):
                     print(f"  [FAIL] {header_name}: {desc}")
                     
             print(f"\n[TAVARDT UK] Audit Score: {score}/{total}")
-            print(f"\nVerificacao completa online: https://tools.tavardt.com/uk/security-headers-check/")
-            print(f"Suporte corporativo e ciberdefesa: https://ag.tavardt.com/uk/cybersecurity/\n")
+            print(f"\nFull online diagnostic tool: https://tools.tavardt.com/uk/security-headers-check/")
+            print(f"Corporate defence and cybersecurity consulting: https://ag.tavardt.com/uk/cybersecurity/\n")
             
     except urllib.error.URLError as e:
-        print(f"[TAVARDT UK] Erro ao inspecionar o alvo: {e}")
+        print(f"[TAVARDT UK] Error inspecting target: {e}")
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
