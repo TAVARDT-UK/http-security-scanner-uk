@@ -1,11 +1,11 @@
 # HTTP Security Headers Scanner | TAVARDT UK
 
-[![Auditoria de Segurança](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/uk/security-headers-check/)
-[![Conformidade](https://img.shields.io/badge/Jurisdi%C3%A7%C3%A3o-United Kingdom-00C853.svg)](https://ag.tavardt.com/uk/cybersecurity/)
+[![Scope of Perimeter Verification](https://img.shields.io/badge/TAVARDT-Technical%20Audit-5b3cf5.svg)](https://tools.tavardt.com/uk/security-headers-check/)
+[![Jurisdiction](https://img.shields.io/badge/Jurisdiction-United Kingdom-00C853.svg)](https://ag.tavardt.com/uk/cybersecurity/)
 
 Automated technical audit of HTTP security headers aligned with NCSC guidelines and ICO UK GDPR standards for web perimeters in the United Kingdom.
 
-Desenvolvido e mantido pela divisão de cibersegurança e proteção de infraestruturas da **[TAVARDT UK](https://ag.tavardt.com/uk/)**.
+Developed and maintained by the cybersecurity and infrastructure defence division of **[TAVARDT UK](https://ag.tavardt.com/uk/)**.
 
 ---
 
@@ -13,28 +13,28 @@ Desenvolvido e mantido pela divisão de cibersegurança e proteção de infraest
 
 This command-line utility audits core browser protection directives and encrypted transport configurations:
 
-* **Strict-Transport-Security (HSTS):** Força comunicações encriptadas via HTTPS e impede ataques de downgrade e interceptação SSL.
-* **Content-Security-Policy (CSP):** Mitiga ataques de injeção de scripts (XSS) e restringe as origens autorizadas para carregamento de recursos.
-* **X-Frame-Options:** Previne ataques de clickjacking regulando as permissões de incorporação em frames e iframes.
-* **X-Content-Type-Options:** Impede a execução indevida de ficheiros derivados de vulnerabilidades de MIME-sniffing.
-* **Referrer-Policy:** Protege dados sensíveis contidos em URLs de referência contra fuga para domínios terceiros.
-* **Permissions-Policy:** Aplica o princípio do menor privilégio sobre APIs de hardware do navegador (câmara, microfone e geolocalização).
+* **Strict-Transport-Security (HSTS):** Enforces HTTPS encryption and prevents SSL-stripping and downgrade attacks.
+* **Content-Security-Policy (CSP):** Restricts resource loading to mitigate Cross-Site Scripting (XSS) and unauthorized code execution.
+* **X-Frame-Options:** Prevents clickjacking by controlling framing and iframe permissions.
+* **X-Content-Type-Options:** Prevents MIME-sniffing vulnerabilities across modern web browsers.
+* **Referrer-Policy:** Protects sensitive URL query parameters from cross-origin disclosure.
+* **Permissions-Policy:** Enforces least-privilege control for browser hardware capabilities and sensors.
 
 ---
 
 ## 2. Quick Start Guide
 
-Execute a ferramenta diretamente via Python sem necessidade de instalar dependências externas:
+Run this tool directly via Python without installing third-party packages:
 
 ```bash
-python scanner.py exemplo.com
+python scanner.py example.co.uk
 ```
 
 ---
 
 ## 3. Online Diagnostic Tools (United Kingdom)
 
-Audite a infraestrutura pública das suas aplicações utilizando a suíte de diagnósticos da TAVARDT:
+Audit the public infrastructure of your web properties using the TAVARDT diagnostic suite:
 
 * [HTTP Security Headers Checker](https://tools.tavardt.com/uk/security-headers-check/)
 * [Consent Mode v2 & UK GDPR Validator](https://tools.tavardt.com/uk/consent-mode-v2-checker/)
