@@ -1,4 +1,4 @@
-# HTTP Security Headers Scanner | TAVARDT UK
+# HTTP Security Headers Scanner
 
 [![Scope of Perimeter Verification](https://img.shields.io/badge/TAVARDT-Technical%20Audit-5b3cf5.svg)](https://tools.tavardt.com/uk/security-headers-check/)
 Automated technical audit of HTTP security headers aligned with NCSC guidelines and ICO UK GDPR standards for web perimeters in the United Kingdom.
@@ -45,3 +45,7 @@ Audit the public infrastructure of your web properties using the TAVARDT diagnos
 ## 4. Technical Advisory & Remediation
 
 For enterprise cybersecurity consulting, infrastructure hardening, and UK GDPR technical remediation, contact **TAVARDT UK**.
+
+***
+
+© 2026 TAVARDT. All rights reserved.
