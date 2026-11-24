@@ -1,6 +1,7 @@
 # HTTP Security Headers Scanner
 
 [![Scope of Perimeter Verification](https://img.shields.io/badge/TAVARDT-Technical%20Audit-5b3cf5.svg)](https://tools.tavardt.com/uk/security-headers-check/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 Automated technical audit of HTTP security headers aligned with NCSC guidelines and ICO UK GDPR standards for web perimeters in the United Kingdom.
 
 Developed and maintained by the cybersecurity and infrastructure defence division of **TAVARDT**.
@@ -45,6 +46,20 @@ Audit the public infrastructure of your web properties using the TAVARDT diagnos
 ## 4. Technical Advisory & Remediation
 
 For enterprise cybersecurity consulting, infrastructure hardening, and UK GDPR technical remediation, contact **TAVARDT**.
+
+***
+
+## Governance and Sovereignty
+
+* **Sovereign Unit**: [TAVARDT United Kingdom](https://ag.tavardt.com/uk/) (`TAVARDT-UK`)
+* **Core Standards**: [00-core Governance](https://github.com/TAVARDT-UK/00-core)
+* **Diagnostic Portal**: **TAVARDT UK Diagnostic Suite**
+* **Enterprise Security**: [TAVARDT UK Cybersecurity](https://ag.tavardt.com/uk/cybersecurity/)
+
+***
+
+### License
+Released under the MIT License. See [LICENSE](LICENSE) for full details.
 
 ***
 
