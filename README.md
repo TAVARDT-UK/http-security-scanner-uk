@@ -1,13 +1,11 @@
 # HTTP Security Headers Scanner | TAVARDT UK
 
 [![Scope of Perimeter Verification](https://img.shields.io/badge/TAVARDT-Technical%20Audit-5b3cf5.svg)](https://tools.tavardt.com/uk/security-headers-check/)
-[![Jurisdiction](https://img.shields.io/badge/Jurisdiction-United Kingdom-00C853.svg)](https://ag.tavardt.com/uk/cybersecurity/)
-
 Automated technical audit of HTTP security headers aligned with NCSC guidelines and ICO UK GDPR standards for web perimeters in the United Kingdom.
 
-Developed and maintained by the cybersecurity and infrastructure defence division of **[TAVARDT UK](https://ag.tavardt.com/uk/)**.
+Developed and maintained by the cybersecurity and infrastructure defence division of **TAVARDT UK**.
 
----
+***
 
 ## 1. Scope of Perimeter Verification
 
@@ -20,7 +18,7 @@ This command-line utility audits core browser protection directives and encrypte
 * **Referrer-Policy:** Protects sensitive URL query parameters from cross-origin disclosure.
 * **Permissions-Policy:** Enforces least-privilege control for browser hardware capabilities and sensors.
 
----
+***
 
 ## 2. Quick Start Guide
 
@@ -30,20 +28,20 @@ Run this tool directly via Python without installing third-party packages:
 python scanner.py example.co.uk
 ```
 
----
+***
 
 ## 3. Online Diagnostic Tools (United Kingdom)
 
 Audit the public infrastructure of your web properties using the TAVARDT diagnostic suite:
 
-* [HTTP Security Headers Checker](https://tools.tavardt.com/uk/security-headers-check/)
+* HTTP Security Headers Checker
 * [Consent Mode v2 & UK GDPR Validator](https://tools.tavardt.com/uk/consent-mode-v2-checker/)
 * [DMARC & Anti-Spoofing Verifier](https://tools.tavardt.com/uk/dmarc-checker/)
 * [Exposed Credentials & Secret Scanner](https://tools.tavardt.com/uk/exposed-files-scanner/)
 * [Full UK Technical Tools Portal](https://tools.tavardt.com/uk/)
 
----
+***
 
 ## 4. Technical Advisory & Remediation
 
-For enterprise cybersecurity consulting, infrastructure hardening, and UK GDPR technical remediation, contact **[TAVARDT UK](https://ag.tavardt.com/uk/contact/)**.
+For enterprise cybersecurity consulting, infrastructure hardening, and UK GDPR technical remediation, contact **TAVARDT UK**.
